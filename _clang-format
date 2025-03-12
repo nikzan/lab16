@@ -1,0 +1,33 @@
+BasedOnStyle: LLVM
+Language: Cpp
+
+AlwaysBreakTemplateDeclarations: Yes
+
+BreakBeforeBraces: Custom
+BraceWrapping:
+  AfterClass: false
+  AfterControlStatement: false
+  AfterEnum: false
+  AfterFunction: false
+  AfterNamespace: false
+  AfterObjCDeclaration: false
+  AfterStruct: false
+  AfterUnion: false
+  BeforeCatch: false
+  BeforeElse: true
+
+AccessModifierOffset: -4
+IndentAccessModifiers: false
+IndentWidth: 4
+TabWidth: 4
+UseTab: Never
+
+AllowShortIfStatementsOnASingleLine: false
+AllowShortLoopsOnASingleLine: false
+AllowShortBlocksOnASingleLine: false
+AllowShortFunctionsOnASingleLine: false
+AllowShortEnumsOnASingleLine: false
+
+ColumnLimit: 100
+PointerAlignment: Left
+SpaceBeforeCpp11BracedList: true
