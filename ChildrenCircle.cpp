@@ -1,7 +1,7 @@
 #include "ChildrenCircle.h"
 #include <iostream>
 #include <fstream>
-#include <cstring>
+#include <string>
 
 ChildrenCircle::ChildrenCircle() : Head(nullptr), Size(0) {
 }
